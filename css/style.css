@@ -8,8 +8,8 @@ body {
   font-size: 15px;
   line-height: 1.6;
   max-width: 560px;
-  margin: 0 auto;
-  padding: 100px 16px 96px;
+  margin: 0;
+  padding: 100px 24px 96px 64px;
 }
 
 .title {
@@ -62,5 +62,7 @@ hr {
   color: #111111;
   margin-bottom: 16px;
 }
+
+a { color: #111111; }
 
 a { color: #111111; }
