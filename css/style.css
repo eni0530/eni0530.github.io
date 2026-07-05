@@ -1,5 +1,6 @@
-* { box-sizing: border-box; margin: 0; padding: 0; }
 
+* { box-sizing: border-box; margin: 0; padding: 0; }
+ 
 body {
   background: #fffffe;
   color: #111111;
@@ -7,65 +8,65 @@ body {
   font-weight: 400;
   font-size: 15px;
   line-height: 1.6;
-  max-width: 620px;
-  margin-left: max(24px, calc((100vw - 620px) / 4));
+  max-width: 775px;
+  margin-left: max(24px, calc((100vw - 775px) / 4));
   margin-right: auto;
   padding: 100px 24px 96px;
 }
-
+ 
 .title {
   font-weight: 400;
   font-size: 15px;
 }
-
+ 
 .title a {
   color: #111111;
   text-decoration: none;
 }
-
+ 
 .nav-box {
   margin-top: 24px;
   font-size: 15px;
   display: flex;
   gap: 18px;
 }
-
+ 
 .nav-box a {
   color: #111111;
   text-decoration: none;
 }
-
+ 
 .nav-box a.active {
   text-decoration: underline;
 }
-
+ 
 .post {
   margin-top: 24px;
 }
-
+ 
 .post + .post {
   margin-top: 48px;
 }
-
+ 
 hr {
   margin: 28px 0;
   border: none;
   border-top: 1px solid #ccc;
 }
-
+ 
 .post p {
   margin-bottom: 14px;
-  max-width: 525px;
+  max-width: 656px;
   font-weight: 400;
 }
-
+ 
 .post p.tags {
   font-weight: 400;
 }
-
+ 
 .post-date {
   color: #111111;
   margin-bottom: 16px;
 }
-
+ 
 a { color: #111111; }
